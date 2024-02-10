@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid black; 
+    text-align: center;
+}
+.borda{
+    border-width: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input{
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 8px;
+    margin-top: 11px;
+    
+}
+.config{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+div{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: -7px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+input#descricao {
+     height: 70px;
+       text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+
+div#botao{
+    text-align: center;
+    height: 100px;
+    line-height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black ;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+a{
+    font-size: 70px;
+    font-family: sans-serif;
+    color: black;
+     
+    
+}
+
+main{
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black ;
+   
+    
+}
